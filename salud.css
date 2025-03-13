@@ -1,25 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    height: 150vh; 
-    overflow: hidden; 
-}
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("https://2.bp.blogspot.com/-Ey74W_h8u8I/V46vcCG21-I/AAAAAAAAACg/h0idm_LbOnY9oBiPtzeDdkBFP0EKoiBCACLcB/s1600/MEDI.jpg");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    opacity: 0.5; 
-    z-index: -1; 
 }
 body {
     font-family: Arial, sans-serif;
