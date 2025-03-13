@@ -17,7 +17,6 @@ header{
     max-width: 10px; 
     /*width: 70px; */
     border: 1px solid black;
-    height: auto;
 }
 /***************************************/
                         nav{
@@ -45,7 +44,7 @@ header{
     justify-content: space-around;
     background-color: #e8e8e8;
     width: 10px;
-    height: auto;
+    /* height: auto;*/
 }
 .imagenes img{
     margin: 30px;
