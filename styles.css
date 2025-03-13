@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(121, 248, 174);
+    background-color: rgb(121, 248, 164);
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 }
 
 .logo{
-    /* max-width: 10px; */
+    max-width: 10px; 
     width: 70px;
     border: 1px solid black;
  
@@ -47,7 +47,7 @@ nav {
     justify-content: space-around;
     background-color: #e8e8e8;
     width: 10px;
-    height: 10px;
+    height: 400px;
 }
 
 .imagenes img {
