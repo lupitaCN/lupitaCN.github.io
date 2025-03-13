@@ -14,7 +14,7 @@ header{
 }
 /***************************************/
 .Logo{
-    /*max-width: 10px; */
+    max-width: 10px; 
     width: 70px;
     border: 1px solid black;
  
@@ -45,7 +45,7 @@ header{
     justify-content: space-around;
     background-color: #e8e8e8;
     width: 10px;
-    height: 10px;
+    height: auto;
 }
 .imagenes img{
     margin: 30px;
