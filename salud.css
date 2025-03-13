@@ -21,17 +21,36 @@ body::before {
     opacity: 0.5; 
     z-index: -1; 
 }
+body {
+    font-family: Arial, sans-serif;
+}
 
-h1, p {
-    position: center;
-    z-index: 150;
-    color: black; 
-}
 nav {
-    width: 100%;
-  
-    justify-content: center;
+    width: 200px;
 }
+
+.menu-vertical {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-vertical li {
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-vertical li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.menu-vertical li a:hover {
+    background-color: #ddd;
+}
+
 
 
 .image {
