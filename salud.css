@@ -37,6 +37,10 @@ nav {
 
 .menu-vertical li {
     border-bottom: 1px solid #ccc;
+        display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    aling-items: center;
 }
 
 .menu-vertical li a {
@@ -45,6 +49,7 @@ nav {
     text-decoration: none;
     color: #333;
     background-color: #f4f4f4;
+    
 }
 
 .menu-vertical li a:hover {
