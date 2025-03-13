@@ -1,59 +1,71 @@
-body {
+/***************************************/
+body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial,sans-serif;
     background-color: rgb(121, 248, 174);
 }
-
-header {
+/***************************************/
+header{
     background-color: #246605;
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-.logo{
-    max-width: 10px; 
+/***************************************/
+.Logo{
+    /*max-width: 10px; */
     width: 70px;
     border: 1px solid black;
  
 }
-
-nav {
-    flex-grow: 1;
-    text-align: center;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.menu li {
-    margin-left: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #d31212;
-    font-weight: bold;
-}
-
-.imagenes {
+/***************************************/
+                        nav{
+                            flex-grow: 1;
+                            text-align: center;
+                        }
+                        .menu{
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            display: flex;
+                            justify-content: flex-end;
+                        }
+                        .menu li{
+                            margin-left: 20px;
+                        }
+                        .menu a{
+                            text-decoration: none;
+                            color: #d31212;
+                            font-weight: bold;
+                        }
+/***************************************/
+.imagenes{
     display: flex;
     justify-content: space-around;
     background-color: #e8e8e8;
     width: 10px;
     height: 400px;
 }
-
-.imagenes img {
+.imagenes img{
     margin: 30px;
-    width: auto;
+    width: 400px;
 }
+/***************************************/
+.button{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #45a049;
+}
+
+/***************************************/
 .marquee {
     width: 100%;
     overflow: hidden;
@@ -62,7 +74,6 @@ nav {
     animation: marquee 15s linear infinite;
     margin-bottom: 70px;
 }
-
 @keyframes marquee {
     0% { 
         transform: translate(100%, 0); 
@@ -72,23 +83,10 @@ nav {
     }
 }
     /* boton de ayuda y registro */
-
-.top-right {
+.top-right{
     position: absolute;
     top: 10px;
     right: 10px;
 }
+/***************************************/
 
-.button {
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #45a049;
-}
