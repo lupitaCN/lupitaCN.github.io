@@ -52,7 +52,7 @@ nav {
 
 .imagenes img {
     margin: 30px;
-    width: 400px;
+    width: auto;
 }
 .marquee {
     width: 100%;
