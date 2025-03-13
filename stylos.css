@@ -30,9 +30,6 @@ nav {
     margin: 0;
     display: flex;
     justify-content: flex-end;
-    height: 100vh;
-    aling-items: center;
-    
 }
 
 .menu li {
